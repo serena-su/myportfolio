@@ -1,0 +1,223 @@
+@charset "utf-8";
+
+/* Portfolio and Client Page*/
+
+.wrapper {
+	width: 78vw;
+	margin: 0 auto;
+}
+
+section {
+	margin: 50px 0;
+}
+
+section p {
+	margin-top: 10px;
+}
+
+.wireframe-pic-container,
+.colour-container,
+.font-container,
+.planning-pic-container,
+.wordpress-pic-container,
+.deliverable-pic-container,
+.client-mobile-container {
+	margin: 15px auto 0;
+}
+
+.wireframe-pic-container img,
+.font-container,
+.planning-pic-container img,
+.wordpress-pic-container img,
+.deliverable-pic-container img,
+.client-mobile-container img {
+	-webkit-box-shadow: 0px 0px 13px 2px rgba(52,53,70,0.75);
+	-moz-box-shadow: 0px 0px 13px 2px rgba(52,53,70,0.75);
+	box-shadow: 0px 0px 13px 2px rgba(52,53,70,0.75);
+}
+
+.colour-container {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 745px;
+}
+
+.font-container {
+	width: 745px;
+}
+
+.wireframe-pic-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 960px;
+}
+
+.planning-pic-container,
+.wordpress-pic-container,
+.deliverable-pic-container,
+.client-mobile-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 800px;
+}
+
+.wireframe-pic-container img,
+.planning-pic-container img,
+.wordpress-pic-container img,
+.deliverable-pic-container img,
+.client-mobile-container img {
+	margin-top: 20px;
+}
+
+.colour {
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	margin: 5px;
+}
+
+.colour1 {
+	background: #A08B97;
+}
+
+.colour2 {
+	background: #AF8682;
+}
+
+.colour3 {
+	background: #8F90C0;
+}
+
+.colour4 {
+	background: #343546;
+}
+
+.font {
+	margin-left: 8px;
+}
+
+.font1, .font2 {
+	margin-bottom: 15px;
+}
+
+.font1 {
+	font-family: 'BioRhyme', serif; 
+}
+
+.font2 {
+	font-family: 'Varela Round', sans-serif;
+}
+
+.font3 {
+	font-family: 'Love Ya Like A Sister', cursive;
+}
+
+/* Responsive Webpage */
+@media only screen and (max-width: 1200px){
+	.wireframe-pic-container {
+		width: 790px;
+	}
+}
+
+@media only screen and (max-width: 1000px){
+	.wrapper {
+		width: 85vw;
+	}
+}
+
+@media only screen and (max-width: 900px){
+	.wrapper {
+		width: 90vw;
+	}
+
+	.wireframe-pic-container {
+		justify-content: space-around;
+	}
+
+	.planning-pic-container,
+	.wordpress-pic-container,
+	.deliverable-pic-container,
+	.client-mobile-container {
+		width: 700px;
+	}
+
+	header img {
+		margin-left: 1rem;
+	}
+}
+
+@media only screen and (max-width: 850px){ 
+	.wireframe-pic-container {
+		width: 70vw;
+		justify-content: space-between;
+	}
+
+	.planning-pic-container,
+	.wordpress-pic-container,
+	.deliverable-pic-container,
+	.client-mobile-container {
+		width: 90vw;
+	}
+
+	.font-container,
+	.colour-container {
+		width: 70vw;
+	}
+}
+
+@media only screen and (max-width: 770px){ 
+	.wireframe-pic-container,
+	.font-container,
+	.colour-container {
+		width: 75vw;
+	}
+}
+
+@media only screen and (max-width: 700px){ 
+	.wireframe-pic-container{
+		width: 85vw;
+	}
+
+	.font-container,
+	.colour-container {
+		width: 85vw;
+	}
+}
+
+@media only screen and (max-width: 659px){ 
+	.single-page-button-div{
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.after,
+	.client-mobile-furniture {
+		margin-top: 35px;
+	}
+}
+
+@media only screen and (max-width: 620px){ 
+	.wireframe-pic-container {
+		flex-direction: column;
+		height: 780px;
+		align-content: space-around;
+	}
+}
+
+@media only screen and (max-width: 430px){
+	header img {
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 410px){ 
+	.wireframe-pic-container {
+		height: auto;
+		align-items: center;
+	}
+}
